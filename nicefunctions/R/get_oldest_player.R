@@ -2,7 +2,7 @@
 #' @param x is the year of interest
 #' @return the name of the oldest player in a given year
 #' @export
-#'  @examples
+#' @examples
 #' get_oldest_player(1950)
 
 get_oldest_player <- function(x) {

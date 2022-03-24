@@ -15,3 +15,6 @@ the name of the oldest player in a given year
 \description{
 Function 2: Get oldest player
 }
+\examples{
+get_oldest_player(1950)
+}
