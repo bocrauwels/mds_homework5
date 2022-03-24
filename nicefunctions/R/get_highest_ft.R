@@ -1,6 +1,8 @@
 #' Function 1: Get highest free throw
+#'
 #' @param x is the year of interest
 #' @return The max number of free throw points made by any player in a given year
+#' @export
 #' @examples
 #' get_best_player(1950)
 

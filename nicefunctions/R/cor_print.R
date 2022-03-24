@@ -1,7 +1,9 @@
 
-#' Function 3: Get correlation matrix
+#' cor print
+#'
 #' @param x is the year of interest
 #' @return  the correlation matrix for all numerical variables in the nba data for a given year
+#' @export
 #' @examples
 #' cor_print(1950)
 
