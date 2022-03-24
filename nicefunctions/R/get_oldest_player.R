@@ -6,7 +6,7 @@
 #' get_oldest_player(1950)
 
 get_oldest_player <- function(x) {
-  max_age <- data %>%
+  max_age <- Seasons_Stats_NBA %>%
     filter(Year == x) %>%
     filter(Age == max(Age)) %>% arrange(desc(Player)) %>%
     select(Player)

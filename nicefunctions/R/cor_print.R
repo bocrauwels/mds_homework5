@@ -8,7 +8,7 @@
 #' cor_print(1950)
 
 cor_print <- function(x){
-  data_numeric <- keep(data, is.numeric)
+  data_numeric <- keep(Seasons_Stats_NBA, is.numeric)
   data_filtered <- data_numeric %>%
     filter(Year == x, na.rm=TRUE)
   output <- cor(data_filtered)

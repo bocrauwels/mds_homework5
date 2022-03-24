@@ -7,7 +7,7 @@
 #' get_best_player(1950)
 
 get_highest_ft <- function(x) {
-  max_ftr <- data %>%
+  max_ftr <- Seasons_Stats_NBA %>%
     filter(Year == x) %>%
     summarize(max = max(FTr))
   print(paste("The maximum Free Throws attained in this year was", max_ftr ))
